@@ -1,0 +1,9 @@
+Package: CancerRegR
+Title: Exploratory Analysis of Cancer-Related Genomic Regions
+Version: 1.0.0
+Authors@R: Arefeh Saeidi, email = arefehsaiedi@gmail.com
+Description: An R package for exploring cancer-related genomic regions. It includes tools to find Cpg islands, annotate regions, and summarize region data.
+License: MIT + file License
+Encoding: UTF-8
+LazyData: true
+Video: https://youtu.be/l0lF3rxuuqc?si=chjaygR7n04Pg-5r
