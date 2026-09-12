@@ -25,6 +25,7 @@ The package is implemented using base R and does not require external R packages
 - Uses base R without external package dependencies.
 
 ## Project Structure
+
 CancerRegR/
 ├── DESCRIPTION
 ├── LICENSE
@@ -42,7 +43,8 @@ CancerRegR/
     ├── test_annotate_genomic_regions.R
     └── test_summarize_regions.R
 
--Installation
+## Installation
+
 Clone the repository:
 git clone https://github.com/arefehsaiedi/CancerRegR.git
 cd CancerRegR
@@ -54,7 +56,8 @@ source("R/find_cpg_islands.R")
 source("R/annotate_genomic_regions.R")
 source("R/summarize_regions.R")
 
--Usage
+##Usage
+
 Find CpG Islands
 source("R/find_cpg_islands.R")
 
@@ -96,7 +99,8 @@ regions <- data.frame(
 summarize_regions(regions)
 The function returns summary statistics including the number of regions, total length, mean length, median length, minimum length, and maximum length.
 
--Testing
+##Testing
+
 The project includes one test file for each main function.
 From the project directory, run:
 R --vanilla < tests/test_find_cpg_islands.R
@@ -104,20 +108,24 @@ R --vanilla < tests/test_annotate_genomic_regions.R
 R --vanilla < tests/test_summarize_regions.R
 The tests use small example data sets to verify the expected structure and values of the results.
 
--Documentation
+##Documentation
+
 Documentation for each function is available in the man/ directory.
 In R, documentation can be viewed with:
 help(find_cpg_islands)
 help(annotate_genomic_regions)
 help(summarize_regions)
 
--Author
+##Author
+
 Created by Arefeh Saiedi.
 * GitHub: @arefehsaiedi⁠
 * Repository: CancerRegR⁠
-  
--Course
+
+##Course
+
 Final project for CS50’s Introduction to Programming with R by Harvard University.
 
--License
+##License
+
 This project is distributed under the MIT License. See the LICENSE⁠ file for details.
